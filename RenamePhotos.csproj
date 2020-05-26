@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <PackageVersion>1.0.4</PackageVersion>
+    <Authors>tesar.tech</Authors>
+    <Title>Rename Photos</Title>
+    <Description>Renames photos based on date taken metadata</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <ToolCommandName>RenamePhotos</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="script.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
