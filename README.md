@@ -32,7 +32,7 @@ When I will be buildingcreating next nuget package I know I will look at here ¯
 
 - generate api key on nuget.org
 - store the api key: `nuget setApiKey iamthesecretkey`
-- push the package: `nuget push .\nupkg\RenamePhotos.1.0.6.nupkg -Source https://api.nuget.org/v3/index.json`
+- push the package: `nuget push .\nupkg\RenamePhotos.1.0.7.nupkg -Source https://api.nuget.org/v3/index.json`
 
 - More info [here](https://docs.microsoft.com/en-us/nuget/nuget-org/publish-a-package)
 - [Properties](https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets#pack-target) for `.nuspec` file and their alternatives in `.csproj`.
